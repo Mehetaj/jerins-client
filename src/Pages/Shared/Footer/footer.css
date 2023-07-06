@@ -1,0 +1,12 @@
+.grid div h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.grid div p {
+    margin-top: 7px;
+}
+.grid div img {
+    margin-top: 12px;
+}
