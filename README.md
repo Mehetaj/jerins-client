@@ -27,25 +27,13 @@ This is a Parlour Service Application designed to manage and book various beauty
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/parlour-service-app.git
+   git clone https://github.com/Mehetaj/jerins-client
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd parlour-service-app
-   ```
-
-3. Install dependencies for both frontend and backend:
-
-   ```bash
-   # For backend
-   cd backend
-   npm install
-
-   # For frontend
-   cd ../frontend
-   npm install
+   cd jerins-client
    ```
 
 4. Set up environment variables:
@@ -66,21 +54,6 @@ This is a Parlour Service Application designed to manage and book various beauty
      NEXT_PUBLIC_API_URL=<your_backend_api_url>
      ```
 
-5. Run the development servers:
-
-   - Backend:
-
-     ```bash
-     cd backend
-     npm run dev
-     ```
-
-   - Frontend:
-
-     ```bash
-     cd frontend
-     npm run dev
-     ```
 
 6. Open your browser and visit `http://localhost:3000` to use the application.
 
@@ -89,25 +62,7 @@ This is a Parlour Service Application designed to manage and book various beauty
 - **Customer:** Sign up, log in, browse services, and book appointments. Customers can manage their bookings from the dashboard.
 - **Admin:** Log in to the admin dashboard to manage services, view bookings, and handle customer queries.
 
-## Folder Structure
-
-```
-parlour-service-app/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── utils/
-│   ├── config/
-│   └── server.js
-├── frontend/
-│   ├── components/
-│   ├── pages/
-│   ├── public/
-│   ├── styles/
-│   └── utils/
-└── README.md
-```
+`
 
 ## Future Improvements
 
